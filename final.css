@@ -115,7 +115,8 @@ a {
   display: grid;
   place-items: center;
   background: linear-gradient(135deg, rgba(52, 73, 66, 0.86), rgba(52, 73, 66, 0.58)),
-    url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1700&q=80") center/cover;
+    /*url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1700&q=80") center/cover;*/
+    url("https://placebear.com/200/300") center/cover;
   color: #fff;
   text-align: center;
   padding: 80px 24px;
