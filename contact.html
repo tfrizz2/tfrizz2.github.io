@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Contact | Overages Claims Services US</title>
@@ -13,10 +13,11 @@
   <body>
     <div class="navbar">
       <div class="nav-inner">
-        <a href="index.html" class="logo"><b>🐟</b> Overages Claims Services US</a>
-        <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" class="logo">Overages Claims Services US</a>
+        <nav class="nav-links">
           <a href="index.html">Home</a>
           <a href="about.html">About the Process</a>
+          <a href="testimonials.html">Testimonials</a>
           <a href="whoWeAre.html">Who We Are</a>
           <a class="active" href="contact.html">Contact</a>
         </nav>
@@ -27,25 +28,21 @@
       <section class="section">
         <div class="container grid-2">
           <article class="card">
-            <p class="section-subtitle">Contact</p>
             <h1 class="section-title">Start Your Claim Consultation</h1>
             <p>
-              This page is the primary lead capture point. Share your contact details and we will
-              follow up with next steps.
+              This page is the primary lead capture point. Share your contact
+              details and we will follow up with next steps.
             </p>
             <ul class="contact-list">
               <li><strong>Phone:</strong> (123) 456-7891</li>
               <li><strong>Email:</strong> info@overagesclaimsservicesus.com</li>
               <li><strong>Hours:</strong> Mon-Fri 9:00 AM-5:00 PM (PT)</li>
             </ul>
-            <div class="callout" style="margin-top: 14px">
-              Overages Claims Services US is a private service and is not a government agency.
-            </div>
           </article>
 
-          <section class="form-block" aria-label="Contact form">
+          <section class="form-block">
             <h2 style="margin-bottom: 12px">Contact Form</h2>
-            <form action="#" method="post">
+            <form name="myForm" id="contactForm" novalidate>
               <div>
                 <label for="fullName">Full Name</label>
                 <input id="fullName" name="fullName" type="text" required />
@@ -62,16 +59,6 @@
               </div>
 
               <div>
-                <label for="preferredContact">Preferred Contact Method</label>
-                <select id="preferredContact" name="preferredContact" required>
-                  <option value="">Select one</option>
-                  <option value="phone">Phone</option>
-                  <option value="email">Email</option>
-                  <option value="text">Text</option>
-                </select>
-              </div>
-
-              <div>
                 <label for="message">Message</label>
                 <textarea id="message" name="message" required></textarea>
               </div>
@@ -84,7 +71,8 @@
     </main>
 
     <footer>
-      <p>Designed by Trenton Frizzell</p>
+      <p>Overages Claims Services US</p>
     </footer>
+    <script src="submit.js"></script>
   </body>
 </html>
