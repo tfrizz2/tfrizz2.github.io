@@ -6,7 +6,7 @@ This website serves as the business website for the above mentioned. Business is
 
 ## To Run
 
-Live site: `https://github.com/tfrizz2/tfrizz2.github.io.git`
+Live site: `https://tfrizz2.github.io/index.html`
 
 ## Pages
 
